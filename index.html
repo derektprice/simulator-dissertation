@@ -100,7 +100,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<tw-storydata name="Simulator Dissertation 2021" startnode="32" creator="Twine" creator-version="2.3.5" ifid="DA7B45A6-F636-4409-B4AC-3D8B2B6E640B" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body[data-tags~="title"] {
+	<tw-storydata name="Simulator Dissertation 2021" startnode="22" creator="Twine" creator-version="2.3.5" ifid="DA7B45A6-F636-4409-B4AC-3D8B2B6E640B" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">body[data-tags~="title"] {
 	background-image: url("images/Title image - Simulator dissertation 2021.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -133,6 +133,13 @@ div.mydiv a {
         background-color: #FFF; /* Fix to make div clickable in IE */
         opacity: 0; /* Fix to make div clickable in IE */
         filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+    }
+body {
+  font-family: Lucida Console,Helvetica,sans-serif;
+  font-size: 110%;
+}
+h1 {
+      line-height:0.2em;
     }</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Title Screen" tags="title" position="659,91" size="100,100">&lt;div class=&quot;mydiv&quot;&gt;
 &lt;a class=&quot;link link-internal&quot; data-passage=&quot;Main Menu&quot; tabindex=&quot;0&quot;&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -153,155 +160,167 @@ Table of Contents
 
 © 2021, Derek Price. All rights reserved.
 
-Version: 0.1
+Version: 1.0
 
 
 
-</tw-passagedata><tw-passagedata pid="3" name="How to read this essay" tags="" position="608,226" size="100,100">This twine &quot;game&quot; is a branching, hypertext essay, meant to introduce folks to my dissertation titled &quot;The Work of Nonfiction: Simulator Games in Germany.&quot; This essay is less of a &quot;summary&quot; of my dissertation, and more of a &quot;teaser&quot; - my hope is that by clicking through this essay, you&#39;ll get a sense of the kind of work I do, and if you want to know more, you&#39;ll get in touch!
+</tw-passagedata><tw-passagedata pid="3" name="How to read this essay" tags="main" position="608,226" size="100,100">This twine &quot;game&quot; is a branching, hypertext essay, meant to introduce folks to my dissertation titled &quot;The Work of Nonfiction: Simulator Games in Germany.&quot; This essay is less of a &quot;summary&quot; of my dissertation, and more of a &quot;teaser&quot; - my hope is that by clicking through this essay, you&#39;ll get a sense of the kind of work I do, and if you want to know more, you&#39;ll get in touch!
 
-This essay is composed of a series of passages that are linked together through hyperlinks. Hypertext literature is as old as the idea of a hyperlink, and there are many different models for thinking about how to design hypertext literature (for a great analysis of some of the basic types of hyptertext literature, see &lt;a href=&quot;https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/&quot; target=&quot;_blank&quot;&gt; this post by Sam Kabo Ashwell&lt;/a&gt;). In this essay, I try to keep it simple: there is a &quot;main branch&quot; to the essay which you can easily click through, and there are also &quot;offshoots&quot; which explore some concept, object, history, or idea in more depth, and then return you back to where you left off on the main branch. The image below should illustrate what I mean.
+This essay is composed of a series of passages that are linked together through hyperlinks. Hypertext literature is as old as the idea of a hyperlink, and there are many different models for thinking about how to design hypertext literature (for a great analysis of some of the basic types of hyptertext literature, see &lt;a href=&quot;https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/&quot; target=&quot;_blank&quot;&gt; this post by Sam Kabo Ashwell&lt;/a&gt;). In this essay, I try to keep it simple: there is a &quot;main branch&quot; to the essay which you can easily click through in a linear way, but there are also links to external webpages and &quot;offshoot&quot; passages which explore some concept, object, history, or idea in more depth. Within passages, I often place a link at the end of a paragraph, like this &lt;&lt;linkappend &quot;one.&quot; t8n&gt;&gt;
 
-&lt;img src=&quot;images/test.jpg&quot; alt=&quot;a picture showing the main branch and rabbit-trail structure of this essay&quot;/&gt;
+As you can see, clicking that link will reveal more text or images below it. When a passages is finshed you&#39;ll see a &quot;NEXT&quot; or &quot;BACK&quot; button at the bottom, which you can click to continue moving through the essay.
 
-To help you differentiate between &quot;offshoot&quot; and &quot;main branch&quot; passages, I&#39;ve made the background color of all main argument passages darker and the background color of all offshoots lighter. Whenever you&#39;re ready to move on to the next step in the main branch, just click the &quot;next&quot; button at the bottom of the page.
+[[BACK to the main menu |Main Menu]]
+\&lt;&lt;/linkappend&gt;&gt;
 
-[[Back to the main menu |Main Menu]]
+</tw-passagedata><tw-passagedata pid="4" name="Introduction" tags="main" position="434,376" size="100,100">&lt;h1&gt;Introduction&lt;/h1&gt;
+\&lt;&lt;audio &quot;titlemusic&quot; fadeout&gt;&gt;
+Whether or not you play computer games, you’ve probably heard of Microsoft Flight Simulator, one of the most popular and longest-running simulator game &lt;&lt;linkappend &quot;series.&quot; t8n&gt;&gt;
+&lt;img src=&quot;images/msflightsim1.0.gif&quot; alt=&quot;a screenshot of ms flight sim 1.0&quot;/&gt;
+The original Microsoft Flight Simulator was released in 1982 for the IMB PC, but was actually based on a flight simulator developed by a small company founded by Bruce Artwick called subLOGIC, which had been developing 3D simulations of flight for several &lt;&lt;linkappend &quot;years.&quot; t8n&gt;&gt;
 
+While interactive, 3D games have become the norm in the 21st century, at the time when flight simulators first started circulating in the consumer market, they were //groundbreaking//. Up until the early 1980s, interactive software which could actually simulate a 3D space had only existed in scientific and military contexts, and such technology was extremely costly to produce and &lt;&lt;linkappend &quot;use.&quot; t8n&gt;&gt;
 
-</tw-passagedata><tw-passagedata pid="4" name="Introduction" tags="main" position="435,374" size="100,100">&lt;h1&gt;Introduction&lt;/h1&gt;
-Whether or not you play computer games, you’ve probably heard of Microsoft Flight Simulator, one of the most popular and longest-running simulator game series.
-
-The original Microsoft Flight Simulator was released in 1982 for the IMB PC, but was actually based on a flight simulator developed by a small company founded by Bruce Artwick called subLOGIC, which had been developing 3D simulations of flight for several years.
-
-While interactive, 3D games have become the norm in the 21st century, at the time when flight simulators first started circulating in the consumer market, they were //groundbreaking//. Up until the early 1980s, interactive software which could actually simulate a 3D space had only existed in scientific and military contexts, and such technology was extremely costly to produce and use.
-
-For this reason, simulator games are really important for the history of computer games, because it was in this genre that many modern game design elements and techniques where first developed.
-&lt;&lt;audio &quot;titlemusic&quot; fadeout&gt;&gt;
-
+For this reason, simulator games are really important for the history of computer games, because it was in this genre that many modern game design elements and techniques where first &lt;&lt;linkappend &quot;developed.&quot; t8n&gt;&gt;
 [[NEXT|The typical simulator game]]
-</tw-passagedata><tw-passagedata pid="5" name="The typical simulator game" tags="main" position="421,519" size="100,100">Even if you haven’t ever played a simulator game, you probably would recognize a description of one. From the early 1980s through to the mid-2000s, most simulator games had some fairly regular and distinct characteristics
-
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+</tw-passagedata><tw-passagedata pid="5" name="The typical simulator game" tags="main" position="421,519" size="100,100">&lt;h1&gt;The typical simulator game (1/3)&lt;/h1&gt;
+\&lt;&lt;audio &quot;titlemusic&quot; fadeout&gt;&gt;
+Even if you haven’t ever played a simulator game, you probably would recognize a description of one. From the early 1980s through to the mid-2000s, most simulator games had some fairly regular and distinct &lt;&lt;linkappend &quot;characteristics:&quot; t8n&gt;&gt;
 * they are games about working with big machines like trains, planes, cars, or trucks
 * they are often very detailed and complex, and try to realistically represent the appearance, function, and even sound of real machines, the work for which those machines are used, and sometimes even the places where that work occurs.
 * they often feature branding and products from real private companies or public institutions, like airplane or truck manufacturers
-&lt;&lt;audio &quot;titlemusic&quot; fadeout&gt;&gt;
-[[NEXT|hard to learn]]</tw-passagedata><tw-passagedata pid="6" name="The mid-2000s simulator game boom" tags="main" position="858,371" size="100,100">&lt;h1&gt;The mid-2000s Simulator Game Boom&lt;/h1&gt;
-However, starting around the mid-2000s, the simulator game genre started to change in a number of ways
+[[NEXT|hard to learn]]
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="The mid-2000s simulator game boom" tags="main" position="858,371" size="100,100">&lt;h1&gt;The mid-2000s Simulator Game Boom (1/5)&lt;/h1&gt;
+\&lt;&lt;audio &quot;titlemusic&quot; fadeout&gt;&gt;
+However, starting around the mid-2000s, the simulator game genre started to change in a number of &lt;&lt;linkappend &quot;ways.&quot; t8n&gt;&gt;
 
-At the end of 2008 and beginning of 2009, Microsoft layed-off most of ACES Studio, an internal studio which had been developing MS flight sim for many years, even though the most recent flight simulator, MS Flight Sim X, released in 2006, had been successful.
+At the end of 2008 and beginning of 2009, Microsoft layed-off most of ACES Studio, an internal studio which had been developing MS flight sim for many years, even though the most recent flight simulator, MS Flight Sim X, released in 2006, had been &lt;&lt;linkappend &quot;successful.&quot; t8n&gt;&gt;
 
 Around the same time, in 2007 and 2008, there was a boom of simulator games from central and east European developers and publishers.
-&lt;&lt;audio &quot;titlemusic&quot; fadeout&gt;&gt;
-[[NEXT|The New Simulators]]</tw-passagedata><tw-passagedata pid="7" name="My study of new simulator games" tags="main" position="1187,366" size="100,100">&lt;h1&gt;My Study of New Simulator Games&lt;/h1&gt;
-My dissertation looks at the simulator game genre, focusing specifically on this “new wave” of simulator games in central and east Europe over the last 15 years (2006 – 2021).
+
+[[NEXT|The New Simulators]]
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="7" name="My study of new simulator games" tags="main" position="1188,366" size="100,100">&lt;h1&gt;My Study of New Simulator Games (1/2)&lt;/h1&gt;
+\&lt;&lt;audio &quot;titlemusic&quot; fadeout&gt;&gt;
+My dissertation looks at the simulator game genre, focusing specifically on this “new wave” of simulator games in central and east Europe over the last 15 years &lt;&lt;linkappend &quot;(2006 – 2021).&quot; t8n&gt;&gt;
 
 I was initially intrigued by these newer simulator games as a strange novelty - &quot;who wants to spend their free time playing games about work???&quot; - but over the course of my project, I&#39;ve come to understand this unique genre as an interesting and important development in the history of nonfiction media.
-&lt;&lt;audio &quot;titlemusic&quot; fadeout&gt;&gt;
-[[NEXT|The Questions of my Dissertation]]</tw-passagedata><tw-passagedata pid="8" name="The Results of my Research" tags="main" position="1432,365" size="100,100">&lt;h1&gt;The Results of my Research&lt;/h1&gt;
-By pursuing my research questions, I learned that:
 
-* Simulator games, like many forms of nonfiction media, are a “flexible” genre that often operates in multiple “modes” – they can serve both as “travel” games and marketing material for industry partners, or as historical, documentary games that also offer the pleasures of the process genre
-* Simulator games draw on, but also depart from, historical practices of simulation, and that we can better understand them if we bring the study of “simulation” in game studies back into conversation with theories of representation, narration, and play.
-* At visual, procedural, haptic, and auditory levels, simulator games use deep detail and complexity to allow players to get close to machines and get into the work directly, rather than maintain a managerial or scientific distance from the game’s subject matter. 
-* Simulator games are an important transformation of the process genre, a genre which evokes the spirit of craftsmanship and appeals to people who can find pleasure in “the job well-done.” But simulator games are also a site where players, developers, and brands from other industries bring their own desires and goals to the genre, and simulator games speak often speak to contemporary trends in the politics of work and economy.
-&lt;&lt;audio &quot;titlemusic&quot; fadeout&gt;&gt;
+[[NEXT|The Questions of my Dissertation]]
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="8" name="The Results of my Research" tags="main" position="1431,366" size="100,100">&lt;h1&gt;The Results of my Research (1/3)&lt;/h1&gt;
+\&lt;&lt;audio &quot;titlemusic&quot; fadeout&gt;&gt;
+By pursuing my research questions, I learned &lt;&lt;linkappend &quot;that:&quot; t8n&gt;&gt;
+
+1. Simulator games, like many forms of nonfiction media, are a “flexible” genre that often operates in multiple “modes” – they can serve both as “travel” games and marketing material for industry partners, or as historical, documentary games that also offer the pleasures of the process &lt;&lt;linkappend &quot;genre&quot; t8n&gt;&gt;
+
+2. Simulator games draw on, but also depart from, historical practices of simulation, and that we can better understand them if we bring the study of “simulation” in game studies back into conversation with theories of representation, narration, and &lt;&lt;linkappend &quot;play.&quot; t8n&gt;&gt;
+
+3. At visual, procedural, haptic, and auditory levels, simulator games use deep detail and complexity to allow players to get close to machines and get into the work directly, rather than maintain a managerial or scientific distance from the game’s subject &lt;&lt;linkappend &quot;matter.&quot; t8n&gt;&gt;
+
+4. Simulator games are an important transformation of the process genre, a genre which evokes the spirit of craftsmanship and appeals to people who can find pleasure in “the job well-done.” But simulator games are also a site where players, developers, and brands from other industries bring their own desires and goals to the genre, and simulator games speak often speak to contemporary trends in the politics of work and economy.
+
 [[NEXT|It matters, because...]]
-</tw-passagedata><tw-passagedata pid="9" name="hard to learn" tags="main" position="415,652" size="100,100">Because simulator games were so committed to a form of realism based on detail and complexity, the games themselves often tended to be more complex and difficult to play, relative to most other computer game genres.
-
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="hard to learn" tags="main" position="415,652" size="100,100">&lt;h1&gt;The typical simulator game (2/3)&lt;/h1&gt;
+Because simulator games were so committed to a form of realism based on detail and complexity, the games themselves often tended to be more complex and difficult to play, relative to most other computer game &lt;&lt;linkappend &quot;genres.&quot; t8n&gt;&gt;
+&lt;img src=&quot;images/manualcontents.jpg&quot; alt=&quot;the table of contents for ms flight sim 1.0 187 pages&quot;/&gt;
 Older simulator games are well-known their thick manuals that players often had to read and reference before and during play.
 
-[[NEXT|maybe not even games?]]</tw-passagedata><tw-passagedata pid="10" name="maybe not even games?" tags="main" position="413,791" size="100,100">Reading that description, one might wonder: are simulator games even games? Or are they something else, like educational or training software, or a &quot;hobby&quot; like woodworking which requires the hobbyist to buy special equipment and learn new skills?
+[[NEXT|maybe not even games?]]
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="maybe not even games?" tags="main" position="413,791" size="100,100">&lt;h1&gt;The typical simulator game (3/3)&lt;/h1&gt;
+One might even wonder: are simulator games even games? Or are they something else, like educational or training software, or a &quot;hobby&quot; like woodworking which requires the hobbyist to buy special equipment and learn new &lt;&lt;linkappend &quot;skills?&quot; t8n&gt;&gt;
 
-It seems that many simulator games intentionally embrace this ambiguity.
-
-From the way that simulators are marketed (real flight training software sold on digital game storefront slike Steam)
-
-To the way that players will build elaborate, in-home hardware set-ups for gameplay, mimicing the hardware used in real flight training
-
-To cultural narratives that have developed around simulators which imply (or parody) the idea that you //really do// learn something while playing simulators, such as this clip from the 2006 film &quot;Snakes on a Plane&quot;
-
-https://www.youtube.com/watch?v=ws7Ve4mehqs
+Many simulator games intentionally embrace this &lt;&lt;linkappend &quot;ambiguity.&quot; t8n&gt;&gt;
+&lt;img src=&quot;images/xplane11testimonials.png&quot; alt=&quot;testimonials&quot;/&gt;
+From the way that simulators like X-Plane (Laminar Research) are marketed as potentially useful training &lt;&lt;linkappend &quot;tools&quot; t8n&gt;&gt;
+&lt;img src=&quot;images/inhomeflightsetup.jpg&quot; alt=&quot;picture of in-home flight simulator setup&quot;/&gt;
+To the way that players build elaborate, in-home hardware set-ups for gameplay, mimicing the hardware used in real flight &lt;&lt;linkappend &quot;training&quot; t8n&gt;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ws7Ve4mehqs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+To cultural narratives that have developed around simulators, such as this clip from the 2006 film &quot;Snakes on a Plane,&quot; which imply (or parody) the idea that players //really do// learn something while playing &lt;&lt;linkappend &quot;simulators.&quot; t8n&gt;&gt;
 
 Whether or not playing a flight simulator on a playstaion will help you land a palane, part of the cultural understandings that have developed around simulators as a genre suggests that playing them might actually be useful or educational, precisely because they seem to be //so close// to reality.
-
-
 [[NEXT|The mid-2000s simulator game boom]]
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
 
 
 
 
 
-</tw-passagedata><tw-passagedata pid="11" name="The New Simulators" tags="main" position="859,520" size="100,100">Some of these new simulator games came from companies that had been producing add-ons and expansions to flight and train simulators for years, but other games came from new developers, looking to try something new in the genre.
+</tw-passagedata><tw-passagedata pid="11" name="The New Simulators" tags="main" position="853,587" size="100,100">&lt;h1&gt;The mid-2000s Simulator Game Boom (2/5)&lt;/h1&gt;
+Some of these new simulator games came from companies that had been producing add-ons and expansions to flight and train simulators for years, but other games came from new developers, looking to try something new in the &lt;&lt;linkappend &quot;genre.&quot; t8n&gt;&gt;
 
-These new simulator games were still recognizable as part of the simulator game genre, but were also different in some important ways.
+These new simulator games were still recognizable as part of the simulator game genre, but were also different in some important &lt;&lt;linkappend &quot;ways.&quot; t8n&gt;&gt;
+&lt;img src=&quot;images/Early German sims.png&quot; alt=&quot;newer simulators&quot;&gt;
+For one, these new simulators portrayed a wider range of machines and professions. Instead of just airplanes, trains, trucks, and cars, new simulator games focused on work and machines in sectors like farming, construction, shipping and logistics, and even street-cleaning. Click the names of the games below to learn more about them and see what they look like.
 
-For one, these new simulators portrayed a wider range of machines and professions
+&lt;a href=&quot;https://www.mobygames.com/game/windows/farming-simulator-2008&quot; target=&quot;_blank&quot;&gt;Landwirtschafts-Simulator 2008, GIANTS Software&lt;/a&gt;
 
-Instead of just airplanes, trains, trucks, and cars, new simulator games focused on work and machines in sectors like farming, construction, shipping and logistics, and even street-cleaning. Click the names of the games below to learn more about them and see what they look like.
+&lt;a href=&quot;https://www.mobygames.com/game/windows/crane-simulator-2009&quot; target=&quot;_blank&quot;&gt;Kran-Simulator/Crane Simulator 2009, astragon Software&lt;/a&gt;
 
-[[Landwirtschafts-Simulator 2008, GIANTS Software]]
+&lt;a href=&quot;https://www.mobygames.com/game/big-rig-europe&quot; target=&quot;_blank&quot;&gt;Euro Truck Simulator, SCS Software&lt;/a&gt;
 
-[[Kran-Simulator/Crane Simulator 2009, astragon Software]]
+&lt;a href=&quot;https://www.tml-studios.de/game/kehrmaschinen-simulator/?lang=en&quot; target=&quot;_blank&quot;&gt;Kehrmaschinen Simulator 2011, TML Studios&lt;/a&gt;
 
-[[Euro Truck Simulator, SCS Software]]
+[[NEXT|Central and East Europe]]
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="12" name="Central and East Europe" tags="main" position="847,718" size="100,100">&lt;h1&gt;The mid-2000s Simulator Game Boom (3/5)&lt;/h1&gt;
+This new &quot;boom&quot; of simulator games also primarily came from central and east European developers and especially German publishers. Below are a few important simulator game developers and publishers from the mid-2000s onward.
 
-[[Kehrmaschinen Simulator 2011, TML Studios]]
+&lt;a href=&quot;https://www.giants-software.com/games.php&quot; target=&quot;_blank&quot;&gt;GIANTS Software (Switzerland) - Developer&lt;/a&gt;
 
-[[NEXT|Central and East Europe]]</tw-passagedata><tw-passagedata pid="12" name="Central and East Europe" tags="main" position="860,804" size="100,100">This new &quot;boom&quot; of simulator games also primarily came from central and east European developers and especially German publishers.
+&lt;a href=&quot;https://www.astragon.com/games&quot; target=&quot;_blank&quot;&gt;Astragon (Germany) - Developer and Publisher&lt;/a&gt;
 
-Click the links below to learn about a few important simulator game developers and publishers from the mid-2000s onward.
+&lt;a href=&quot;https://www.tml-studios.de/game-listing-style-1/?lang=en&quot; target=&quot;_blank&quot;&gt;TML Studios (Germany) - Developer&lt;/a&gt;
 
-[[GIANTS Software (Switzerland) - Developer]]
+&lt;a href=&quot;https://www.aerosoft.com/us/&quot; target=&quot;_blank&quot;&gt;Aerosoft (Germany) - Developer and Publisher&lt;/a&gt;
 
-[[Astragon (Germany) - Developer and Publisher]]
+&lt;a href=&quot;https://scssoft.com/&quot; target=&quot;_blank&quot;&gt;SCS Software (Czech Republic) - Developer&lt;/a&gt;
 
-[[TML Studios (Germany) - Developer]]
+&lt;a href=&quot;https://actalogic.com/Games&quot; target=&quot;_blank&quot;&gt;Actalogic (Slovenia) - Developer&lt;/a&gt;
 
-[[Aerosoft (Germany) - Developer and Publisher]]
-
-[[SCS Software (Czech Republic) - Developer]]
-
-[[Actalogic (Slovenia) - Developer]]
-
-[[NEXT|Easier, Relaxing Games]]</tw-passagedata><tw-passagedata pid="13" name="GIANTS Software (Switzerland) - Developer" tags="offshoot" position="477,955" size="100,100">TEXT
-
-[[Back to list of developers and publishers|Central and East Europe]]</tw-passagedata><tw-passagedata pid="14" name="Astragon (Germany) - Developer and Publisher" tags="" position="627,955" size="100,100">TEXT
-
-[[Back to list of developers and publishers|Central and East Europe]]</tw-passagedata><tw-passagedata pid="15" name="TML Studios (Germany) - Developer" tags="offshoot" position="777,955" size="100,100">TEXT
-
-[[Back to list of developers and publishers|Central and East Europe]]</tw-passagedata><tw-passagedata pid="16" name="Aerosoft (Germany) - Developer and Publisher" tags="offshoot" position="928,954" size="100,100">TEXT
-
-[[Back to list of developers and publishers|Central and East Europe]]</tw-passagedata><tw-passagedata pid="17" name="SCS Software (Czech Republic) - Developer" tags="offshoot" position="1078,953" size="100,100">TEXT
-
-[[Back to list of developers and publishers|Central and East Europe]]</tw-passagedata><tw-passagedata pid="18" name="Actalogic (Slovenia) - Developer" tags="offshoot" position="1227,954" size="100,100">TEXT
-
-[[Back to list of developers and publishers|Central and East Europe]]</tw-passagedata><tw-passagedata pid="19" name="Easier, Relaxing Games" tags="main" position="854,1086" size="100,100">Another important difference is that some newer simulator games lower the level of complexity in control schemes and in their simulation of work processes, making those games more &quot;relaxing&quot; and less similar to training software.
-
+[[NEXT|Easier, Relaxing Games]]</tw-passagedata><tw-passagedata pid="13" name="Easier, Relaxing Games" tags="main" position="844,862" size="100,100">&lt;h1&gt;The mid-2000s Simulator Game Boom (4/5)&lt;/h1&gt;
+Another important difference is that some newer simulator games lower the level of complexity in control schemes and in their simulation of work processes, making those games more &quot;relaxing&quot; and less similar to training &lt;&lt;linkappend &quot;software.&quot; t8n&gt;&gt;
+&lt;img src=&quot;images/ets2travel.jpg&quot; alt=&quot;traveling on the road in Euro Truck simulator 2&quot;&gt;
 Games like GIANTS Software&#39;s //Farming Simulator// series and SCS Software&#39;s //Euro Truck Simulator// series are slightly less complicated than older simulators like Microsoft Flight Simulator, meaning players can focus on exploring new places, developing their farm or trucking business, and acquring new trucks and tractors.
 
-[[NEXT|A best seller in Germany]]</tw-passagedata><tw-passagedata pid="20" name="Landwirtschafts-Simulator 2008, GIANTS Software" tags="offshoot" position="734,671" size="100,100">TEXT
+[[NEXT|A best seller in Germany]]
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="A best seller in Germany" tags="main" position="841,1006" size="100,100">&lt;h1&gt;The mid-2000s Simulator Game Boom (5/5)&lt;/h1&gt;
+Since the mid-2000s, new simulator games have become quite popular in many countries, but espeically in &lt;&lt;linkappend &quot;Germany.&quot; t8n&gt;&gt;
 
-[[Back to list of new simulator games|The New Simulators]]</tw-passagedata><tw-passagedata pid="21" name="Kran-Simulator/Crane Simulator 2009, astragon Software" tags="offshoot" position="855,672" size="100,100">TEXT
+In 2016, &lt;a href=&quot;http://www.vgchartz.com/yearly/2016/Germany/&quot; target=&quot;_blank&quot;&gt;GIANTS Software&#39;s //Farming Simulator 17// was one of the best-selling games in Germany&lt;/a&gt;, according to vgchartz.com
 
-[[Back to list of new simulator games|The New Simulators]]</tw-passagedata><tw-passagedata pid="22" name="Euro Truck Simulator, SCS Software" tags="offshoot" position="978,671" size="100,100">TEXT
+[[NEXT|My study of new simulator games]]
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="The Questions of my Dissertation" tags="main" position="1189,516" size="100,100">&lt;h1&gt;My Study of New Simulator Games (2/2)&lt;/h1&gt;
+In my dissertation, I address a few important questions about how simulator games have changed and what they mean for us now, including questions &lt;&lt;linkappend &quot;like:&quot; t8n&gt;&gt;
 
-[[Back to list of new simulator games|The New Simulators]]</tw-passagedata><tw-passagedata pid="23" name="Kehrmaschinen Simulator 2011, TML Studios" tags="offshoot" position="1084,670" size="100,100">TEXT
+What is so appealing about playing a game about work and &lt;&lt;linkappend &quot;machines?&quot; t8n&gt;&gt;
 
-[[Back to list of new simulator games|The New Simulators]]</tw-passagedata><tw-passagedata pid="24" name="A best seller in Germany" tags="main" position="854,1236" size="100,100">Since the mid-2000s, new simulator games have become quite popular in many countries, but espeically in Germany.
+Where did simulation games come from, and how did they change in the 21st &lt;&lt;linkappend &quot;century?&quot; t8n&gt;&gt;
 
-In 2016, &lt;a href=&quot;http://www.vgchartz.com/yearly/2016/Germany/&quot; target=&quot;_blank&quot;&gt;GIANTS Software&#39;s //Farming Simulator 17// was one of the best-selling games in Germany &lt;/a&gt;, according to vgchartz.com
+How should we understand the highly-detailed and complex “realism” so central to simulator games, both at aesthetic and ideological levels? What aesthetic techniques and ideologies about subjectivity, economy, gender, and class undergird simulator game &lt;&lt;linkappend &quot;realism?&quot; t8n&gt;&gt;
 
-[[NEXT|My study of new simulator games]]</tw-passagedata><tw-passagedata pid="25" name="The Questions of my Dissertation" tags="main" position="1188,515" size="100,100">In my dissertation, I address a few important questions about how simulator games have changed and what they mean for us now, including questions like:
+How are modern simulator games predicated both on modern game design practices and older, more serious practices of simulation in science, management, and military &lt;&lt;linkappend &quot;strategy?&quot; t8n&gt;&gt;
 
-* What is so appealing about playing a game about work and machines?
-* Where did simulation games come from, and how did they change in the 21st century?
-* How should we understand the highly-detailed and complex “realism” so central to simulator games, both at aesthetic and ideological levels? What aesthetic techniques and ideologies about subjectivity, economy, gender, and class undergird simulator game realism?
-* How are modern simulator games predicated both on modern game design practices and older, more serious practices of simulation in science, management, and military strategy?
-* How do simulator games build on and diverge from other media forms (like utility films or advertising board games) which focus on work processes and machines, feature brands and sponsors, and adopt a nonfictional mode of representation?
+How do simulator games build on and diverge from other media forms (like utility films or advertising board games) which focus on work processes and machines, feature brands and sponsors, and adopt a nonfictional mode of representation?
 
 [[NEXT|The Results of my Research]]
-
-</tw-passagedata><tw-passagedata pid="26" name="It matters, because..." tags="main" position="1427,528" size="100,100">Ultimately, I think the results of my research contribute to several areas of interest in German Studies, Game Studies, and Media Studies, including the study of:
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+</tw-passagedata><tw-passagedata pid="16" name="It matters, because..." tags="main" position="1427,529" size="100,100">&lt;h1&gt;The Results of my Research (2/3)&lt;/h1&gt;
+Ultimately, I believe the results of my dissertation contribute to several areas of research in German Studies, Game Studies, and Media Studies, including the study of:
 
 1. [[Nonfiction media practices and &quot;realism&quot;]]
 
@@ -309,36 +328,43 @@ In 2016, &lt;a href=&quot;http://www.vgchartz.com/yearly/2016/Germany/&quot; tar
 
 3. [[Representations of work in digital media]]
 
-[[NEXT|If you&#39;re interested...]]</tw-passagedata><tw-passagedata pid="27" name="Nonfiction media practices and &quot;realism&quot;" tags="offshoot" position="1278,678" size="100,100">One thing that my project does is contribute to the study of nonfiction media practices in computer games, an area which is understudied.
+[[NEXT|If you&#39;re interested...]]</tw-passagedata><tw-passagedata pid="17" name="Nonfiction media practices and &quot;realism&quot;" tags="offshoot" position="1278,678" size="100,100">&lt;h1&gt;Nonfiction media practices and &quot;realism&quot;&lt;/h1&gt;
+One thing that my project does is contribute to the study of nonfiction media practices in computer games, an area which is &lt;&lt;linkappend &quot;understudied.&quot; t8n&gt;&gt;
 
-There are whole bodies of research dedicated to nonfictional forms of literature and film, focusing on documentary, travelogue, educational, historical, industrial, and utility genres.
+There are whole bodies of research dedicated to nonfictional forms of literature and film, focusing on documentary, travelogue, educational, historical, industrial, and utility &lt;&lt;linkappend &quot;genres.&quot; t8n&gt;&gt;
 
-However, there is far less research about nonfictional computer game genres. While there are extensive bodies of work on historical, strategy, and military game genres, all of which often operate in the nonfictional mode, there is far less research about games which document the everyday processes of life and work, and simulator games constitute an important genre in this category.
+However, there is far less research about nonfictional computer game genres. While there are extensive bodies of work on historical, strategy, and military game genres, all of which often operate in the nonfictional mode, there is far less research about games which document the everyday processes of life and work, and simulator games constitute an important genre in this &lt;&lt;linkappend &quot;category.&quot; t8n&gt;&gt;
 
 While the term &quot;realism&quot; is thrown around in popular discourse about computer games in all sorts of ways, thinking carefully about how that concept operates in a nonfiction genre like simulator games is important - if simulators purport to be &quot;about the world,&quot; we should look closely at what kind of a world they imagine.
 
-[[BACK|It matters, because...]]</tw-passagedata><tw-passagedata pid="28" name="Game development in central and east Europe" tags="offshoot" position="1427,678" size="100,100">My dissertation also contributes to the study of game development in central and east Europe.
+[[BACK|It matters, because...]]
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="Game development in central and east Europe" tags="offshoot" position="1428,679" size="100,100">&lt;h1&gt;Game development in central and east Europe&lt;/h1&gt;
+My dissertation also contributes to the study of game development in central and east &lt;&lt;linkappend &quot;Europe.&quot; t8n&gt;&gt;
 
-Especially in the case of a country like Germany, there are many narratives that suggest that central and east European countries are primarily consumers, rather than producers, of computer games.
+Especially in the case of a country like Germany, there are many narratives that suggest that central and east European countries are primarily consumers, rather than producers, of computer &lt;&lt;linkappend &quot;games.&quot; t8n&gt;&gt;
 
 My research on simulator games suggests otherwise, demonstrating that, beginning in the mid-2000s, central and east European developers and publishers played an important role in a well-established genre. Their experimentations with the genre not only sustained simulators when they seemed about to &quot;disappear,&quot; but also transformed the genre, taking it in new directions.
 
-[[BACK|It matters, because...]]</tw-passagedata><tw-passagedata pid="29" name="Representations of work in digital media" tags="offshoot" position="1578,678" size="100,100">Simulator games as a genre are also important to study because they are a contemporary media form all about work.
+[[BACK|It matters, because...]]
+\&lt;&lt;/linkappend&gt;&gt;
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Representations of work in digital media" tags="offshoot" position="1578,678" size="100,100">&lt;h1&gt;Representations of work in digital media&lt;/h1&gt;
+Simulator games as a genre are also important to study because they are a contemporary media form all about &lt;&lt;linkappend &quot;work.&quot; t8n&gt;&gt;
 
 They express ongoing tensions and transformations in our understanding of labor and leisure, and are part of the network of media objects that people, institutions, and even governments draw on to make arguments and foster feelings about modern work, machines, and the politics of economy.
 
-[[BACK|It matters, because...]]</tw-passagedata><tw-passagedata pid="30" name="If you&#39;re interested..." tags="main" position="1432,818" size="100,100">If you&#39;re interested in talking more about my work, or have any questions about it, feel free to reach out. I&#39;m available for interviews, podcasts, collaborations, employment offers, and just informal chit-chats - just get in touch with me through one of the channels listed below!
+[[BACK|It matters, because...]]
+\&lt;&lt;/linkappend&gt;&gt;</tw-passagedata><tw-passagedata pid="20" name="If you&#39;re interested..." tags="main" position="1433,812" size="100,100">&lt;h1&gt;The Results of my Research (3/3)&lt;/h1&gt;
+If you&#39;re interested in talking more about my work, or have any questions about it, feel free to reach out. I&#39;m available for interviews, podcasts, collaborations, employment offers, and just informal chit-chats - just get in touch with me through one of the channels listed below!
 
 Email: derektprice@gmail.com
-
 Twitter: @Digital_Derek
-
 Professional Website: derektprice.github.io
 
+&#39;&#39;Thanks for reading!&#39;&#39;
 
-Thanks for reading!
-
-[[Back to the Main Menu|Main Menu]]</tw-passagedata><tw-passagedata pid="31" name="StoryInit" tags="" position="935,42" size="100,100">&lt;&lt;cacheaudio &quot;titlemusic&quot; &quot;audio/Farming Simulator 2015 - Main Menu Theme.mp3&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="32" name="Faketitle" tags="" position="787,0" size="100,100">Loading&lt;&lt;timed 500ms&gt;&gt;.&lt;&lt;next&gt;&gt;.&lt;&lt;next&gt;&gt;.&lt;&lt;next&gt;&gt;.&lt;&lt;next&gt;&gt;.
+[[Back to the Main Menu|Main Menu]]</tw-passagedata><tw-passagedata pid="21" name="StoryInit" tags="" position="935,42" size="100,100">&lt;&lt;cacheaudio &quot;titlemusic&quot; &quot;audio/Farming Simulator 2015 - Main Menu Theme.mp3&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="22" name="Faketitle" tags="" position="787,0" size="100,100">Loading&lt;&lt;timed 500ms&gt;&gt;.&lt;&lt;next&gt;&gt;.&lt;&lt;next&gt;&gt;.&lt;&lt;next&gt;&gt;.&lt;&lt;next&gt;&gt;.
 
 &lt;&lt;next&gt;&gt;Story loaded - click to start&lt;&lt;/timed&gt;&gt;
 
